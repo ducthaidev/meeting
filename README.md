@@ -1,4 +1,4 @@
-# meeting
+# Meeting
 
 * Hoạt động với kong.
 
@@ -17,3 +17,11 @@
 * Có service gọi vào để chấm điểm.
 
 * Đang có dữ liệu trong mariabdb chứa thông tin tiêu thụ điện của người dùng (khoảng 2 triệu bản ghi). Cần phải đảm bảo toàn vẹn dữ liệu. Thiết kế endpoint phải đảm bảo trả về dữ liệu trong 0.5s(hiện tại đang 1.5s).
+
+# MySQL
+
+* Isolation level
+- 4 MODE.
+- Mặc định REPEATABLE READ.
+* Locking Read
+- SELECT...FOR SHARE | FOR UPDAT
