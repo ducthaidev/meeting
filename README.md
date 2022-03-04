@@ -21,7 +21,7 @@
 # MySQL
 
 * Isolation level
-- 4 MODE.
-- Mặc định REPEATABLE READ.
+    4 MODE.
+    Mặc định REPEATABLE READ.
 * Locking Read
-- SELECT...FOR SHARE | FOR UPDAT
+    SELECT...FOR SHARE | FOR UPDAT
